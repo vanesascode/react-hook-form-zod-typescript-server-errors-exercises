@@ -6,7 +6,7 @@ In this project you can find an example of a:
 - Form using React-Hook-Form
 - Form using React-Hook-Form and Zod
 
-Investigating, analizing and modifying them, helped me understand forms and technologies related much better.
+Investigating, analyzing and modifying them, helped me understand forms and technologies related much better.
 
 ---
 
@@ -24,11 +24,15 @@ React-Hook-Form is giving us validation on the client's side. But we may also wa
 
 With Zod we can create a schema, and then connect it to React-hook-form. Then, in React-hook-form, the validation is not needed. Because we are using the Zod's schema there and anywhere else we want.
 
+---
+
 ### 🔹 @hookform/resolvers
 
 @hookform/resolvers is a library that provides resolvers for validating form inputs using the react-hook-form library. It allows you to use popular validation libraries such as Yup, Joi, Formik or Zod with react-hook-form to handle form validation.
 
 With @hookform/resolvers, you can define your validation schema using the validation library of your choice, and then `use the resolver functions provided by @hookform/resolvers to integrate the validation with react-hook-form` (resolvers are functions that are used to validate form inputs)
+
+---
 
 ### 🔹 Zod & Api Route
 
@@ -49,6 +53,8 @@ To enforce data type restrictions on the server-side, one must not forget to add
   }
 ```
 
+---
+
 ### 🔹 Typescript
 
 - Trick to know the value of 'data':
@@ -56,6 +62,8 @@ To enforce data type restrictions on the server-side, one must not forget to add
   ![data type typescript](https://github.com/vanesascode/vanesascode_portfolio/assets/131259155/3270f44b-1fb0-4e0b-b8d4-a6ca9d6b6bda)
 
   ![image](https://github.com/vanesascode/vanesascode_portfolio/assets/131259155/98f3a8db-9e68-4265-b72f-0c266c0c0336)
+
+---
 
 ### 🔹 Browser's preflight request
 
